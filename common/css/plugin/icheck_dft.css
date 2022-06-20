@@ -1,0 +1,105 @@
+/* iCheck plugin Flat skin, blue
+----------------------------------- */
+.icheckbox_dft{
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    border-radius:50%;
+    -webkit-box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.15);
+    box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.15);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.iradio_dft {
+    position:relative;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background:#fff;
+    border:2px solid #c8c8c8;
+    border-radius:50%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+   -webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;cursor:pointer;
+}
+
+.icheckbox_dft {
+    /* background-position: 0 0; */
+    background-image: url(../../img/common/ico_chk_off.svg);
+}
+    .icheckbox_dft.checked {
+        /* background-position: -22px 0; */
+        background-image: url(../../img/common/ico_chk_on.svg);
+        -webkit-box-shadow:0 3px 6px 0 rgba(0, 209, 215, 0.3);
+        box-shadow:0 3px 6px 0 rgba(0, 209, 215, 0.3);
+    }
+    .icheckbox_dft.disabled {
+        /* background-position: -44px 0; */
+        background-image: url(../../img/common/ico_chk_off.svg);
+        cursor: default;
+    }
+    .icheckbox_dft.checked.disabled {
+        /* background-position: -66px 0; */
+        background-image: url(../../img/common/ico_chk_off.svg);
+    }
+
+.icheckbox_dft.y {
+    /* background-position: 0 0; */
+    background-image: url(../../img/common/ico_chk_off.svg);
+}
+    .icheckbox_dft.checked.y {
+        /* background-position: -22px 0; */
+        background-image: url(../../img/common/ico_chk_y_on.svg);
+        -webkit-box-shadow:0 3px 6px 0 rgba(255, 215, 0, 0.3);
+        box-shadow:0 3px 6px 0 rgba(255, 215, 0, 0.3);
+    }
+    .icheckbox_dft.disabled.y {
+        /* background-position: -44px 0; */
+        background-image: url(../../img/common/ico_chk_off.svg);
+        cursor: default;
+    }
+    .icheckbox_dft.checked.disabled.y {
+        /* background-position: -66px 0; */
+        background-image: url(../../img/common/ico_chk_off.svg);
+    }
+
+.iradio_dft {
+    
+}
+    .iradio_dft.checked {
+        border-color:#ffd700;
+    }
+    .iradio_dft.disabled {
+        /* background-position: -132px 0; */
+        cursor: default;
+    }
+    .iradio_dft.checked.disabled {
+        /* background-position: -154px 0; */
+    }
+    .iradio_dft:hover {
+        border-color:#ffd700;
+    }
+.iradio_dft:before{content:'';position:absolute;top:50%;left:50%;width:12px;height:12px;background:#fff;border-radius:50%;margin:-6px 0 0 -6px;}
+.iradio_dft:hover:before, .iradio_dft.checked:before{background:#ffd700;}
+.iradio_dft + label{vertical-align:middle;}
+
+/* HiDPI support */
+/* @media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_dft,
+    .iradio_dft {
+        background-image: url(../../images/ico/blue@2x.png);
+        -webkit-background-size: 176px 22px;
+        background-size: 176px 22px;
+    }
+} */

@@ -1,0 +1,49 @@
+.main .content02>h1 {
+    letter-spacing: -0.84px;
+    color: #0C0D0D;
+    font-size: 42px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0;
+}
+
+.grid01{ 
+    grid-template-columns: auto auto auto; 
+    grid-gap: 20px;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    /* background-color: pink; */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.grid-item {
+    /* background-color: rgb(59 110 182 / 55%); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item img {
+    margin-bottom: 15px;
+}
+.grid-item .review-content {
+    font-size: 18px;
+    text-align: left;
+    color: #0C0D0D;
+}
+.grid-item .review-date {
+    font-size: 16px;
+    text-align: left;
+    color: #1553FC;
+}
+.review-more {
+    margin: auto;
+    width: max-content;
+    border-bottom: 1.5px solid #1553FC;
+    cursor: pointer;
+}
+.review-more a {
+    font-size: 18px;
+}

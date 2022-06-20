@@ -1,0 +1,106 @@
+안녕하세요 ${firstName?html}님,<br>
+<br>
+"${topic?html}"이(가) ${reminderTime} 후 아래 시간에 시작됨을 알리기 위한 미리 알림입니다.<br>
+<#if meetingTime??>
+	날짜 시간: ${meetingTime} <br>
+</#if>
+<br>
+PC, Mac, iPad, iPhone 또는 Android에서 참가할 수 있습니다.<br>
+<div class="cssTab">
+	<a href="${joinUrl}">여기를 클릭하여 참가</a>  <br>
+    참고: 이 링크는 귀하에게만 고유하므로 다른 사람들과 공유하지 마십시오.<br>
+    <#if password??>
+		암호: ${password}<br>
+	</#if>
+	<#if addToCalendarUrl?? && googleCalendarUrl?? && yahooCalendarUrl??>
+    	<a href="${addToCalendarUrl}">일정에 추가</a> &nbsp; <#if isEnableGoogleCalendar?? && isEnableGoogleCalendar> <a href="${googleCalendarUrl}">Google Calendar에 추가</a> &nbsp; </#if> <a href="${yahooCalendarUrl}">Yahoo Calendar에 추가</a>
+	</#if>
+</div>
+<br>
+<#if enablePSTN>
+	<#if isUserTSPEnabled?? && isUserTSPEnabled>
+	<br>
+	또는 전화:<br>
+	<div class="cssTab">
+    	전화 걸기:<br>
+    	<#if tollNumbers?? && ((tollNumbers?size) > 0)>
+	    <#list tollNumbers as tollNumber>
+        <#if tollNumber != "">
+	    ${tollNumber}<br>
+	    </#if>
+	    </#list>
+	    </#if>
+	    <#if tollFreeNumbers?? && ((tollFreeNumbers?size) > 0)>
+	    <#list tollFreeNumbers as tfreeNum>
+	    ${tfreeNum}(${tollFreeCountrys[tfreeNum_index]!'US'} 무료 통화)<br>
+	    </#list>
+	    </#if>
+    	${(tspPsdTitle!'')?html}: ${(tspPsd!'')?html}<br>
+	</div>
+	<br>
+	<#elseif pickedNumbers?? && ((pickedNumbers?size) > 0)>
+	또는 전화로 참가: 
+	<div class="cssTab">
+		<#assign n = 0><#list pickedNumbers as pickedNumber><#if (n == 0 || (n > 0 && pickedNumber.country != pickedNumbers[n - 1].country))><br>${pickedNumber.countryName!'US'}: </#if><#if (n > 0 && pickedNumber.country == pickedNumbers[n - 1].country)> 또는 </#if>${pickedNumber.displayNumber} <#if pickedNumber.free>(무료 통화)</#if><#assign n = n + 1></#list>
+    	<br>
+    	웨비나 ID: ${meetingNumber} <br>
+    	<#if h323Password?? && enablePSTNPasswordProtected??>
+        암호: ${h323Password}<br>
+	    </#if>
+    	사용 가능한 국제 전화 번호: <a href="${teleConferenceUrl}">${teleConferenceUrl}</a>
+	</div>
+	<br>
+	</#if>
+<#elseif useOtherAudioConference>
+	또는 전화로 참가:<br>
+	<div class="cssTab">
+		${(otherAudioConferenceInfo!"")?html?replace("\n","<br>")}
+	</div>
+	<br>
+</#if>
+<#if h323Gateway?? && ((h323Gateway?size) > 0)>
+또는 H.323/SIP 회의실 시스템: <br>
+<div class="cssTab">
+    H.323: <#if ((h323Gateway?size) <= 2)>${h323Gateway[0]}<#if ((h323Gateway?size) > 1)> 또는 ${h323Gateway[1]}</#if></#if><br>
+        <#if ((h323Gateway?size) > 2)>
+        <#list h323Gateway as rc>
+        ${rc} <br>
+        </#list>
+        </#if>
+    웨비나 ID: ${meetingNumber} <br>
+<#if h323Password??>
+    암호: ${h323Password}<br>
+</#if>
+<br>
+<#if isCRC?? && isCRC>
+    SIP: ${number?c}${(sipDomain!'@zoomcrc.com')?html} <br>
+<#else>
+    SIP: ${number?c}@${h323Gateway[0]}<#if ((h323Gateway?size) > 1)> 또는 ${number?c}@${h323Gateway[1]}</#if> <br>
+</#if>
+<#if h323Password??>
+    암호: ${h323Password}<br>
+</#if>
+</div>
+</#if>
+
+<#if enableLync??>
+<br>
+또는 Skype for Business(Lync): <br>
+<div class="cssTab">
+    <a href="${lyncUrl}">${lyncUrl}</a>
+</div>
+</#if>
+
+<br>
+${(customTextHeader!"")?html?replace("\n","<br>")}<br>
+<#if cancelUrl?? && cancelUrl != ''>
+<br>
+	<#if refundAmount??>
+이 등록을 취소하려면<br>
+    <div class="cssTab">
+        ${contractTimeCanRefund}에 예정된 웨비나가 시작되기 전에 귀하의 등록을 <a href="${cancelUrl}" target="_blank"> 취소할 경우</a>, 3~5 영업일 이내에 귀하의 PayPal 계정으로 ${refundAmount}이(가) 환불됩니다.
+    </div>
+	<#else>
+		언제든지 등록을 <a href="${cancelUrl}" target="_blank">취소</a>할 수 있습니다.<br>
+	</#if>
+</#if> 
