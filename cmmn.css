@@ -79,7 +79,7 @@ textarea{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;resize:no
 #gnb .util_bar li.basket.active:after{content:'';position:absolute;bottom:0;right:-5px;width:10px;height:10px;background:#ffd700;border:1px solid #fff;border-radius:50%;-webkit-box-shadow:0 3px 6px 0 rgba(255, 200, 0, 0.3);box-shadow:0 3px 6px 0 rgba(255, 200, 0, 0.3);}
 
 .content-center {width: 75%; margin: auto;}
-
+h1.section-title {letter-spacing: -0.84px;color: #0C0D0D;font-size: 42px;font-weight: 600;width: 100%;text-align: center;margin: 2% 0;}
 
 #footer{width:auto;height:360px;color:#fff;background:#1e1e1e;z-index:9;overflow:hidden;}
 #footer .content_wrap{position:relative;width:100%;max-width:1300px;height:auto;margin:0 auto;padding:20px 0;}
@@ -102,4 +102,4 @@ textarea{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;resize:no
 
 #container{position:relative;width:auto;min-height:100%;margin:0 0 -350px;}
 #container #contents{width:auto;height:auto;padding:38px 0 350px;} /* 비로그인시 헤더 높이 + 100px */
-#container #contents section {margin-bottom: 100px;}
+#container #contents section {margin-bottom: 240px;}

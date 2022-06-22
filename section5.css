@@ -1,19 +1,22 @@
 .content05 .content-center {
     position: relative!important;
-    display: flow-root;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .content05 .content-center .video {
     position: relative;
     float: left;
-    width: 51.7%;
+    width: 57%;
+    min-height: 482px;
     height: auto;
 }
 .content05 .content-center .text {
     display: inline-block;
-    width: 48.3%;
+    width: 36%;
     max-width: 568px;
     text-align: right;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .content05 .content-center .text>.text1 {
     font-size: 42px;
@@ -27,7 +30,6 @@
 .content06 .cs-container {
     position: relative;
     height: 360px;
-
     text-align: center;
 }
 
