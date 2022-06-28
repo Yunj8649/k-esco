@@ -37,3 +37,14 @@
 .review-more a {
     font-size: 18px;
 }
+
+@media screen and (max-width:768px){
+    .grid01{ 
+        grid-template-columns: auto auto; 
+        grid-gap: 20px;
+        margin: auto;
+    }
+    .grid-item {
+        padding: 0;
+    }
+}

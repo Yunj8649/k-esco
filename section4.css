@@ -63,3 +63,15 @@
 .content04 .content-center .list .address p {
     line-height: 2.5rem;
 }   
+
+@media screen and (max-width:768px){
+    .content04 .content-center {
+        flex-direction: column;
+    }
+    .content04 .content-center .calendar {
+        width: 100%;
+    }
+    .content04 .content-center .list {
+        width: 100%;
+    }
+}
