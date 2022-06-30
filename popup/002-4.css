@@ -1,0 +1,99 @@
+.popup002-4 .content01 {
+    margin-top: 125px;
+}
+.popup002-4 .content01 .item01 {
+    text-align: center;
+    margin-bottom: 81px;
+}
+.popup002-4 .content01 .item02 {
+    background: #1553FC 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 36px;
+    margin-bottom: 61px;
+}
+.popup002-4 .content01 .item02 .text01 {
+    font-size: 20px;
+    color: #D6E1FF;
+    margin-bottom: 12px;
+    letter-spacing: -0.4px;
+}
+.popup002-4 .content01 .item02 .text02 {
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: -1.2px;
+}
+.popup002-4 .content01 .item02 .text01 b {
+    font-weight: bold;
+}
+.popup002-4 .content01 .item03>.text01 {
+    font-size: 20px;
+    color: #0C0D0D;
+    margin-bottom: 31px;
+}
+.popup002-4 .content01 .item03 .text01 span {
+    color: #1553FC;
+}
+.popup002-4 .content01 .item03 .estimate-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.popup002-4 .content01 .item03 .estimate-box .estimate {
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    width: 296px;
+    height: 302px;
+    text-align: center;
+    padding: 40px 56px;
+}
+.popup002-4 .content01 .item03 .estimate-box .estimate .logo { 
+    height: 45px;
+    width: 80px;
+    background: transparent url(../img/kcc.png) no-repeat padding-box;
+    background-size: contain;
+    margin: 0 auto 35px auto;
+}
+.popup002-4 .content01 .item03 .estimate-box .estimate .logo img {
+    width: auto;
+}
+.popup002-4 .content01 .item03 .estimate-box .estimate .text01 {
+    font-size: 20px;
+    color: #0C0D0D;
+    margin-bottom: 4px;
+}
+.popup002-4 .content01 .item03 .estimate-box .estimate .text02 {
+    font-size: 36px;
+    color: #0C0D0D;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.popup002-4 .content01 .item03 .estimate-box .estimate .text03 {
+    font-size: 16px;
+    color: #929598;
+}
+.popup002-4 .content01 .item03>.text02 {
+    color: #929598;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 51px;
+}
+.popup002-4 .content02 {
+    margin-bottom: 123px;
+}
+.popup002-4 .content03 {
+    text-align: center;
+}
+.popup002-4 .content03 .text01,.text02 { 
+    font-size: 24px;
+}
+.popup002-4 .content03 .text02 {
+    margin-bottom: 100px;
+}
+.popup002-4 .content03 .popup-button {
+    margin-bottom: 200px;
+}

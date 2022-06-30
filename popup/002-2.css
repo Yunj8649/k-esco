@@ -1,0 +1,31 @@
+.popup002-2 {}
+.popup002-2 .content01 {
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 200px;
+}
+.popup002-2 .content01 .item01 {
+    margin-bottom: 81px;
+}
+.popup002-2 .content01 .item02 {
+    grid-template-columns: auto auto; 
+    grid-gap: 20px;
+    margin: auto;
+    display: grid;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+.popup002-2 .content01 .item02 .select-item {
+    border-radius: 10px;
+    background: #F7F7F7;
+    text-align: center;
+    color: #929598;
+    font-size: 24px;
+    height: 115px;
+    line-height: 115px;
+}
+.popup002-2 .content01 .item02 .select-item.active {
+    background: #F4F7FF;
+    border: 2px solid #1553FC;
+    color: #1553FC;
+}

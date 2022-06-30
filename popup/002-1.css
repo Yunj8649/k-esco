@@ -1,17 +1,9 @@
-:root {
-    --content-width: 1000px;
-}
-
 .popup002 .content01 {
     height: 880px;
     width: 100%;
     padding: 120px 0 110px 0;
     text-align: center;
     background: #16181C;
-}
-.popup002 .content01-warp,.content02-warp,.content03-warp  {
-    width: var(--content-width);
-    margin: auto;
 }
 .popup002 .content01::before {
     background: #16181C;
@@ -64,14 +56,9 @@
     font-size: 24px;
 }
 
-
 .popup002 .content02 {
     padding-top: 23px;
     padding-bottom: 120px;
-}
-.popup002 .content02 .content02-warp {
-    width: var(--content-width);
-    margin: auto;
 }
 .popup002 .content02 .item01 {
     display: flex;
@@ -108,10 +95,6 @@
     text-align: center;
     background: #F7F7F7 0% 0% no-repeat padding-box;
     padding-top: 80px;
-}
-.popup002 .content03 .content03-warp {
-    width: var(--content-width);
-    margin: auto;
 }
 .popup002 .content03 .magnifying-glass {
     background: transparent url('../img/002_05.png') no-repeat padding-box;
