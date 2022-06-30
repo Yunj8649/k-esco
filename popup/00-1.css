@@ -1,0 +1,51 @@
+.popup001 .popup-title { 
+    margin-top: 7.8125em;
+}
+.popup001 .popup-title h1 { 
+    font-size: 3.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+.popup001 .popup-title p { 
+    font-size: 1.5rem;
+    color: #1553FC;
+    text-align: center;
+}
+.popup001 .popup-form {
+    margin: auto;
+    width: max-content;
+}
+.popup001 .popup-form .form-item{
+    margin-bottom: 62px;
+}
+.popup001 .popup-form label { 
+    font-size: 1.2rem;
+    color: #0C0D0D;
+}
+.popup001 .popup-form input.form-input { 
+    padding: 0.9rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+.popup001 .popup-form input.form-input:focus { 
+    outline: none;
+}
+.popup001 .popup-form input.form-input::placeholder { 
+    font-size: 1.2rem;
+    color: #E0E0E0;
+}
+.popup001 .popup-form button.popup001-submit-button { 
+    background-color: #1553FC;
+    width: 100%;
+    color: #FFFFFF;
+    width: 46rem;
+    height: 4.15rem;
+}
+.popup001 { }
+.popup001 { }
+.popup001 { }
+.popup001 { }
+.popup001 { }
+.popup001 { }
