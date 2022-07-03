@@ -5,10 +5,10 @@
     position: relative;
     margin: auto;
 }
-.content01 .slideshow-container .banner1 { background-image: url(../img/banner1.png); }
-.content01 .slideshow-container .banner2 { background-image: url(../img/banner2.png); }
-.content01 .slideshow-container .banner3 { background-image: url(../img/banner3.png); }
-.content01 .slideshow-container .banner4 { background-image: url(../img/banner4.png); }
+.content01 .slideshow-container .banner1 { background-image: url(../img/main_pc/1_메인배너/1.png); }
+.content01 .slideshow-container .banner2 { background-image: url(../img/main_pc/1_메인배너/2.png); }
+.content01 .slideshow-container .banner3 { background-image: url(../img/main_pc/1_메인배너/3.png); }
+.content01 .slideshow-container .banner4 { background-image: url(../img/main_pc/1_메인배너/4.png); }
 .content01 .slideshow-container .slides {
     background-repeat: no-repeat;
     background-position: center;

@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" id="viewPort" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
 
+
         <link rel="stylesheet" href="../media.css">
         <link rel="stylesheet" href="../cmmn.css">
         <link rel="stylesheet" href="section1.css">
@@ -10,6 +11,12 @@
         <link rel="stylesheet" href="section3.css">
         <link rel="stylesheet" href="section4.css">
         <link rel="stylesheet" href="section5.css">
+
+        <!-- Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     </head>
     <body>
         <script>
@@ -114,32 +121,32 @@
                     <h1 class="section-title">고객님 시공후기</h1>
                     <div class="grid-container grid01 content-center">
                         <div class="grid-item">
-                            <img src="../img/review.png" style="width:100%">
+                            <img src="../img/main_pc/2_시공후기/시공1.png" style="width:100%">
                             <div class="review-content">합리적인 비용으로 성능 좋은 샷시 교체 했어요.</div>
                             <div class="review-date">시공일 2022. 03.22</div>
                         </div>
                         <div class="grid-item">
-                            <img src="../img/review.png" style="width:100%">
+                            <img src="../img/main_pc/2_시공후기/시공2.png" style="width:100%">
                             <div class="review-content">합리적인 비용으로 성능 좋은 샷시 교체 했어요.</div>
                             <div class="review-date">시공일 2022. 03.22</div>
                         </div>
                         <div class="grid-item">
-                            <img src="../img/review.png" style="width:100%">
+                            <img src="../img/main_pc/2_시공후기/시공3.png" style="width:100%">
                             <div class="review-content">합리적인 비용으로 성능 좋은 샷시 교체 했어요.</div>
                             <div class="review-date">시공일 2022. 03.22</div>
                         </div>
                         <div class="grid-item">
-                            <img src="../img/review.png" style="width:100%">
+                            <img src="../img/main_pc/2_시공후기/시공4.png" style="width:100%">
                             <div class="review-content">합리적인 비용으로 성능 좋은 샷시 교체 했어요.</div>
                             <div class="review-date">시공일 2022. 03.22</div>
                         </div>
                         <div class="grid-item">
-                            <img src="../img/review.png" style="width:100%">
+                            <img src="../img/main_pc/2_시공후기/시공5.png" style="width:100%">
                             <div class="review-content">합리적인 비용으로 성능 좋은 샷시 교체 했어요.</div>
                             <div class="review-date">시공일 2022. 03.22</div>
                         </div>
                         <div class="grid-item">
-                            <img src="../img/review.png" style="width:100%">
+                            <img src="../img/main_pc/2_시공후기/시공6.png" style="width:100%">
                             <div class="review-content">합리적인 비용으로 성능 좋은 샷시 교체 했어요.</div>
                             <div class="review-date">시공일 2022. 03.22</div>
                         </div>
@@ -154,20 +161,14 @@
                 <section id="main-example" class="content03 slider">
                     <h1 class="section-title">K-ESCO 시공사례</h1>
                     <div id="slider-div" class="slideshow-container">
-                        <div class="loop-slides fade">
-                            <img src="img/test.png" alt="허경수 박사 이미지">
+                        <div class="center">
+                            <div class="img img01">your content1</div>
+                            <div class="img img02">your content2</div>
+                            <div class="img img03">your content3</div>
+                            <div class="img img04">your content4</div>
+                            <div class="img img05">your content5</div>
+                            <div class="img img06">your content6</div>
                         </div>
-                        <div class="loop-slides fade">
-                            <img src="img/test.png" alt="허경수 박사 이미지">
-                        </div>
-                        <div class="loop-slides fade">
-                            <img src="img/test.png" alt="허경수 박사 이미지">
-                        </div>
-                        <div class="loop-slides fade">
-                            <img src="img/test.png" alt="허경수 박사 이미지">
-                        </div>
-                        <a class="prev" onclick="plusSlides(-1)">❮</a>
-                        <a class="next" onclick="plusSlides(1)">❯</a>
                     </div>
                     <br>
                     
@@ -299,8 +300,38 @@
                 dots[slideIndex - 1].className += " active";
             }
         </script>
-        <script>
-
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.center').slick({
+                    slide: 'div', 
+                    prevArrow : "<button type='button' class='slick-prev'>Previous</button>",
+                    nextArrow : "<button type='button' class='slick-next'>Next</button>",
+                    infinite : true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 4,
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 3
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 1
+                            }
+                        }
+                    ]
+                  });
+            });
         </script>
     </body>
 </html>

@@ -1,28 +1,21 @@
 @charset "utf-8";
 
-.content03 .slideshow-container {
-    /* height: 200px;
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0); */
+.main .content03 .slideshow-container .img:nth-child(even) {
+    
 }
-
-.slideshow-container > .loop-slides {
-    /* height: 200px;
-    width: 2526px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    transform: translate3d(0, 0, 0);
-    animation: moveSlideshow 12s linear infinite; */
+.main .content03 .slideshow-container .img:nth-child(odd) {
 }
-
-.slideshow-container > .loop-slides > img {
-    width: auto;
+.main .content03 .slideshow-container .img {
+    background-size: cover;
+    width: 20rem;
+    height: 27.688rem;
 }
+.main .content03 .slideshow-container .img01 { background: url("../img/main_pc/3_시공사례/사례1.png") no-repeat padding-box; }
+.main .content03 .slideshow-container .img02 { background: url("../img/main_pc/3_시공사례/사례2.png") no-repeat padding-box; }
+.main .content03 .slideshow-container .img03 { background: url("../img/main_pc/3_시공사례/사례3.png") no-repeat padding-box; }
+.main .content03 .slideshow-container .img04 { background: url("../img/main_pc/3_시공사례/사례4.png") no-repeat padding-box; }
+.main .content03 .slideshow-container .img05 { background: url("../img/main_pc/3_시공사례/사례5.png") no-repeat padding-box; }
+.main .content03 .slideshow-container .img06 { background: url("../img/main_pc/3_시공사례/사례6.png") no-repeat padding-box; }
 
 @keyframes moveSlideshow {
     100% { 
