@@ -5,3 +5,77 @@
     text-align: center;
     padding: 125px 0;
 }
+.popup001 .content02 .form-item .zip-code-box {
+    display: flex;
+}
+.popup001 .content02 .form-item .zip-code-box .form-input.zip-code {
+    width: 80%;
+}
+.popup001 .content02 .form-item .zip-code-box .form-input.zip-code-search {
+    width: 20%;
+    background: transparent;
+    color: #1553FC;
+    cursor: pointer;
+}
+.popup001 .content02 .form-item.adress {
+    align-items: flex-start;
+}
+.popup001 .content02 .form-item .adress-inputs {
+    width: 85%;
+}
+.popup001 .content02 .form-item .adress-inputs>input {
+    width: 100%;
+}
+.popup001 .content02 .form-item.schedule{
+    justify-content: flex-start;
+
+}
+.popup001 .content02 .form-item .schedule-item {
+    width: 30%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.popup001 .content02 .form-item .schedule-item input[type="date"]{
+    padding: 0.9rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #0C0D0D;
+    width: 70%;
+}
+.popup001 .content02 .form-item .schedule-item input[type="radio"]{
+    margin-right: 10px;
+    width: 20px;
+}
+.popup001 .content02 .form-item .schedule-item label[name="schedule"]{
+    font-size: 20px;
+    margin: auto 0;
+    width: 15%;
+}
+.popup001 .content02 .form-item .schedule-item input[name="schedule"]{
+}
+.popup001 .content02 .popup-button {
+    margin-bottom: 224px;
+}
+
+@media screen and (max-width:767px){
+    .popup001 .content02 .form-item .adress-inputs {
+        width: 100%;
+    }
+    .popup001 .content02 .form-item .zip-code-box .form-input.zip-code-search {
+        width: 20% !important;
+    }
+    .popup001 .content02 .form-item .schedule-item input[type="radio"] {
+        width: 20px !important;
+    }
+    .popup001 .content02 .form-item .schedule-item {
+        width: 100%;
+    }
+    .popup001 .content02 .form-item .schedule-item input[type="date"] {
+        width: 50% !important;
+    }
+}

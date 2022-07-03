@@ -7,7 +7,7 @@ body{margin:0;position:relative;height:100%;line-height:1.5;overflow-x:hidden;fo
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 *,*:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box;}
-html{height:100%;}
+html{height:100%;font-size: 16px;}
 ol,ul{list-style:none;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
@@ -19,7 +19,8 @@ strong{font-weight:700;}
 a{text-decoration:none;color:inherit;}
 img{width:100%;height:auto;vertical-align:bottom;background-repeat: no-repeat;background-position: center;}
 .img{background-repeat: no-repeat;background-position: center;}
-input{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+input{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;}
+/* input{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;-webkit-appearance:none;-moz-appearance:none;appearance:none;} */
 input:disabled{opacity:1;}
 textarea{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;resize:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
 .btn{
@@ -33,8 +34,8 @@ textarea{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;resize:no
 }
 .btn .google{background-image:url(../mind/assets/googleplay_2x.png);background-size: 125px 48px;width: 115px;height: 43px;background-position: center;margin: auto;}
 .btn .apple{background-image:url(../mind/assets/appstore_2x.png);background-size: 144px 48px;width: 122px;height: 43px;background-position: center;margin: auto;}
-.pc{display:block!important;}
-.mb{display:none!important;}
+.pc{display:block;}
+.mb{display:none;}
 
 #wrap{width: 100%; height: 100%;}
 #header{position:fixed;top:0;left:0;width:100%;height:auto;z-index:10;-webkit-transition:top .3s;-o-transition:top .3s;transition:top .3s;}
