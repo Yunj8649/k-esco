@@ -76,7 +76,7 @@
     line-height: 2.5rem;
 }   
 
-@media screen and (max-width:767px){
+@media ( max-width: 1024px ) { 
     .main .content04 {
         margin-bottom: 8.563rem;
     }
@@ -89,4 +89,7 @@
     .main .content04 .content-center .back-img {
         width: 100%;
     }
+}
+@media screen and (max-width:767px){
+    
 }
