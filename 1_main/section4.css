@@ -1,0 +1,92 @@
+.main .content04 {
+    margin-bottom: 200px;
+}
+.main .content04 .content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.main .content04 .content-center .calendar {
+    width: 40%;
+}
+.main .content04 .content-center .back-img { 
+    width: 50%;
+    background-image: url(../img/main_pc/4_달력뒷배경.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 45.688rem;
+}
+.main .content04 .content-center .list {
+    color: #FFFFFF;
+    margin-top: 70px;
+    padding: 0 50px;
+}
+.main .content04 .content-center .list .date {
+    font-size: 2rem;
+    margin-left: 30px;
+}
+.main .content04 .content-center .list .sub {
+    display: flex;
+    align-items: baseline;
+}
+.main .content04 .content-center .list .status,.today {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+.main .content04 .content-center .list .status {
+    background: rgba( 21,83,252, 0.88 ) 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    padding: 10px 28px;
+}
+.main .content04 .content-center .list .text {
+    font-size: 1.125rem;
+    margin-right: 5px;
+}
+.main .content04 .content-center .list .count {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main .content04 .content-center .list .today {
+    padding: 5px 28px;
+}
+.main .content04 .content-center .list .bell {
+    font-size: x-large;
+}
+.main .content04 .content-center .list .today .text {
+    font-weight: bold;
+}
+.main .content04 .content-center .list hr {
+    display: inherit;
+    margin-top: 0;
+}
+.main .content04 .content-center .list .address {
+    margin: 20px 30px;
+    overflow-y: scroll;
+    height: 252px;
+}
+.main .content04 .content-center .list .address::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF; 
+}
+.main .content04 .content-center .list .address p {
+    line-height: 2.5rem;
+}   
+
+@media screen and (max-width:767px){
+    .main .content04 {
+        margin-bottom: 8.563rem;
+    }
+    .main .content04 .content-center {
+        flex-direction: column;
+    }
+    .main .content04 .content-center .calendar {
+        width: 100%;
+    }
+    .main .content04 .content-center .back-img {
+        width: 100%;
+    }
+}

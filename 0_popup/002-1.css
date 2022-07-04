@@ -1,0 +1,244 @@
+.popup002 .content01 {
+    /* height: 55rem; */
+    width: 100%;
+    padding: 7.5rem 0 6.875rem 0;
+    text-align: center;
+    /* background: #16181C; */
+    background: url("../img/popup_pc/1_메인배너배경.png") no-repeat padding-box;
+    background-size: cover;
+    opacity: 0.92;
+}
+.popup002 .content01::before {
+    background: #16181C;
+    background-size: cover;
+    opacity: 0.92;
+    position: absolute;
+}
+.popup002 .content01 .logo {
+    background: url("../img/popup_pc/") no-repeat padding-box;
+}
+.popup002 .content01 .item01 {
+    margin-top: 2.25rem;
+    margin-bottom: 5.063rem;
+    /* margin-top: 36px;
+    margin-bottom: 81px; */
+}
+.popup002 .content01 .item01 h1 {
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.popup002 .content01 .item01 p {
+    font-size: 1.5rem;
+    color: #929598;
+}
+.popup002 .content01 hr {
+    display: block;
+    background: #FFFFFF;
+    opacity: 0.25;
+}
+.popup002 .content01 .item02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.688rem;
+    margin-bottom: 5.5rem;
+}
+.popup002 .content01 .item02 .text-box {}
+.popup002 .content01 .item02 .text-box .text01 {
+    color: #FFFFFF;
+    font-size: 2.688rem;
+    margin-bottom: 1.125rem;
+}
+.popup002 .content01 .item02 .text-box .text02 {
+    color: #929598;
+    font-size: 1.25rem;
+    margin-bottom: 1.375rem;
+}
+.popup002 .content01 button {
+    width: 27.5rem;
+    height: 5.188rem;
+    background: #1553FC;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.popup002 .content02 {
+    padding-top: 23px;
+    padding-bottom: 120px;
+}
+.popup002 .content02 .item01 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10.5rem;
+    margin-bottom: 2.563rem;
+}
+.popup002 .content02 .img01 {
+    background: url("../img/popup_pc/2_중간마진이미지.png") no-repeat padding-box;
+    height: 25.75rem;
+    background-size: contain;
+    margin: auto;
+}
+.popup002 .content02 .img02 {
+    background: url("../img/popup_pc/국토교통부.png") no-repeat padding-box;
+    height: 8.813rem;
+    background-size: contain;
+    margin: 0 0 0 auto;
+    width: inherit;
+}
+.popup002 .content02 .img03 {
+    background: url("../img/popup_pc/AS보장.png") no-repeat padding-box;
+    height: 29.313rem;
+    background-size: contain;
+    margin: 0 0 0 auto;
+    width: inherit;
+}
+.popup002 .content02 .img04 {
+    background: url("../img/popup_pc/전문시공팀.png") no-repeat padding-box;
+    height: 17.875rem;
+    background-size: contain;
+    margin: 0 0 0 auto;
+    width: inherit;
+}
+.popup002 .content02 .item01 .text01 {
+    text-align: left;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #0C0D0D;
+}
+.popup002 .content02 .item01 .text01 span {
+    color: #1553FC;
+}
+.popup002 .content02 .item01 .text02 {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #929598;
+    width: 37.5rem;
+}
+.popup002 .content02 div.img {
+    width: 37.5rem;
+    margin-left: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.popup002 .content03 {
+    width: 100%;
+    text-align: center;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    padding-top: 5rem;
+}
+.popup002 .content03 .magnifying-glass {
+    background: transparent url('../img/popup_pc/돋보기.png') no-repeat padding-box;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 2.063rem;
+    display: block;
+}
+.popup002 .content03 .item01 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    letter-spacing: -0.72px;
+}
+.popup002 .content03 .item02 {
+    font-size: 1.5rem;
+    color: #929598;
+    margin-bottom: 1.25rem;
+}
+.popup002 .content03 .item03 {
+    height: 44.5rem;
+    background: transparent url(../img/popup_pc/견적이미지.png) no-repeat padding-box;
+    background-size: cover;
+    margin-top: -9.375rem;
+}
+
+@media screen and (max-width:1024px){
+    
+}
+@media screen and (max-width:767px){
+    .popup002 .content01 { padding: 3.75rem 0 2.875rem 0; }
+    .popup002 .content01 .item02 { margin-bottom: 2.5rem; grid-template-columns: auto auto; grid-gap: 20px; display: grid; justify-content: space-evenly; justify-items: center; }
+    .popup002 .content01 .item02 .text-box .text01 { font-size: 1.5rem; }
+    .popup002 .content01 .item02 .text-box .text02 { font-size: 0.875rem; }
+    .popup002 .content01 button {  height: 3.5rem; width: 100%; font-size: 1rem; }
+
+    .popup002 .content02 {
+        padding-top: 23px;
+        padding-bottom: 5rem;
+    }
+    .popup002 .content02 .item01 {
+        margin-top: 3.875rem;
+        margin-bottom: 2.25rem;
+        flex-direction: column;
+    }
+    .popup002 .content02 .item01 .text01 {
+        width: 100%;
+        margin-bottom: 1.125rem;
+        font-size: 1.5rem;
+    }
+    .popup002 .content02 .item01 .text02 {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+    .popup002 .content02 .img01 {
+        background: url("../img/popup_mo/중간마진이미지.png") no-repeat padding-box;
+        height: 42rem;
+        background-size: contain;
+        width: inherit;
+        margin: auto;
+    }
+    .popup002 .content02 .img02 {
+        background: url("../img/popup_mo/국토교통부.png") no-repeat padding-box;
+        height: 6.25rem;
+        background-size: contain;
+        width: inherit;
+        margin: auto;
+    }
+    .popup002 .content02 .img03 {
+        background: url("../img/popup_mo/AS보장.png") no-repeat padding-box;
+        height: 18rem;
+        background-size: contain;
+        width: inherit;
+        margin: auto;
+    }
+    .popup002 .content02 .img04 {
+        background: url("../img/popup_mo/전문시공팀.png") no-repeat padding-box;
+        height: 10.25rem;
+        background-size: contain;
+        width: inherit;
+        margin: auto;
+    }
+    .popup002 .content03 .magnifying-glass {
+        background: transparent url('../img/popup_mo/돋보기.png') no-repeat padding-box;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1.563rem;
+    }
+    .popup002 .content03 .item01 {
+        font-size: 1.5rem;
+    }
+    .popup002 .content03 .item02 {
+        font-size: 1rem;
+    }
+    .popup002 .content03 .item03 {
+        height: 18.875rem;
+        background: transparent url(../img/popup_mo/견적조회이미지.png) no-repeat padding-box;
+        margin-top: -3.375rem;
+    }
+    .popup002 .content03 button {
+        width: 100%;
+        height: 3.5rem;
+        background: #1553FC;
+        border-radius: 6px;
+        color: #FFFFFF;
+        font-size: 1rem;
+        margin-top: -100px;
+    }
+}

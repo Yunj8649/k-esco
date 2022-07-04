@@ -1,0 +1,125 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  #navigation {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #0c0d0d;
+  }
+
+  .navigation-logo {
+    margin: 20px;
+    width: 94px;
+    height: 53px;
+  }
+
+  .navigation-ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navigation-li {
+    margin: 0 0 20px 0;
+  }
+
+  .navigation-li a {
+    font: normal normal bold 24px/32px Noto Sans KR;
+  }
+
+  .toggle-div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .toggle {
+    height: 40px;
+    width: 40px;
+    margin: auto 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/toggle.png");
+  }
+
+  .sub-ul li {
+    font: normal normal normal 16px/21px Noto Sans KR;
+    color: #929598;
+    margin: 9px 40px;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .navigation-logo {
+    width: 140px;
+    height: 100%;
+    margin: 0 300px 0 0;
+  }
+
+  #navigation {
+    display: flex;
+    height: 92px;
+    background-color: #0c0d0d;
+  }
+
+  .navigation-ul {
+    width: 1400px;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    /* overflow: hidden; */
+  }
+
+  .navigation-li {
+    flex: 1;
+    margin: auto;
+    font: normal normal medium 18px/24px Noto Sans KR;
+    position: relative;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .sub-ul {
+    position: fixed;
+    padding: 38px 0;
+    left: 0;
+    top: 65px;
+    display: none;
+  }
+
+  .sub-ul li {
+    margin: 0 20px;
+    font: normal normal medium 16px/21px Noto Sans KR;
+    color: #a0a0a0;
+  }
+
+  .sub-ul li:hover {
+    font: normal normal bold 16px/21px Noto Sans KR;
+    color: #ffffff;
+  }
+
+  #navigation .navigation-ul > li:hover .sub-ul {
+    display: flex;
+    justify-content: center;
+    background-color: #0c0d0d;
+    width: 100%;
+  }
+
+  .sub-ul:hover {
+    display: flex;
+    justify-content: center;
+    background-color: #0c0d0d;
+    width: 100%;
+  }
+}
+
+.navigation-ul {
+  display: flex;
+}
+
+.navigation-li {
+  color: #ffffff;
+}

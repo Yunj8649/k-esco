@@ -1,0 +1,27 @@
+.popup002-3 .content01 {
+    text-align: center;
+    padding-top: 7.813rem;
+    padding-bottom: 12.5rem;
+}
+.popup002-3 .content01 .item01 {
+    margin-bottom: 5.063rem;
+}
+.popup002-3 .content01 .item03 .text01 {
+    text-align: left;
+    color: #929598;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width:1024px){
+    
+}
+@media screen and (max-width:767px){
+    .popup002-3 .content01 {
+        padding-top: 5.125rem;
+        padding-bottom: 7.5rem;
+    }
+    .popup002-3 .content01 .item01 {
+        margin-bottom: 3.938rem;
+    }
+}

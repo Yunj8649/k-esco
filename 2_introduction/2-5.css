@@ -1,0 +1,45 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .contact-wrapper p {
+    width: 100%;
+    flex-basis: 100%;
+    font: normal normal normal 14px/24px Noto Sans KR;
+  }
+
+  .contact-item {
+    margin: 0 0 9px 0;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .contact-wrapper p {
+    width: 50%;
+    flex-basis: 50%;
+    font: normal normal normal 18px/18px Noto Sans KR;
+  }
+
+  .contact-item {
+    margin: 0 0 18px 0;
+  }
+}
+
+.contact-content-wrapper {
+  margin: 31px 0 200px 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 21px 0 0 0;
+}
+
+.contact-wrapper p {
+  color: #0c0d0d;
+}
+
+.contact-wrapper span {
+  font: normal normal bold 18px/18px Noto Sans KR;
+  color: #0c0d0d;
+  margin: 0 5px 0 0;
+}

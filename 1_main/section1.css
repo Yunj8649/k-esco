@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+.main .content01 {
+    margin-bottom: 7.688rem;
+}
+.main .content01 .slideshow-container {
+    position: relative;
+    margin: auto;
+}
+.main .content01 .slideshow-container .banner1 { background-image: url(../img/main_pc/1_메인배너/1.png); }
+.main .content01 .slideshow-container .banner2 { background-image: url(../img/main_pc/1_메인배너/2.png); }
+.main .content01 .slideshow-container .banner3 { background-image: url(../img/main_pc/1_메인배너/3.png); }
+.main .content01 .slideshow-container .banner4 { background-image: url(../img/main_pc/1_메인배너/4.png); }
+.main .content01 .slideshow-container .slides {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 37.5rem;
+    margin: auto;
+    display: none
+}
+.main .content01 .slideshow-container .slides .banner-text-container {
+    /* left: calc(100% - 100px); */
+    width: 35%;
+    margin-left: 14%;
+    padding-top: 10%;
+}
+.main .content01 .slideshow-container .slides .banner-text-container h1 {
+    text-align: left;
+    letter-spacing: -1.04px;
+    color: #FFFFFF;
+    font-size: 3.25rem;
+}
+.main .content01 .slideshow-container .slides .banner-text-container p.sub-text {
+    text-align: left;
+    font-size: 1.25rem;
+    letter-spacing: -0.4px;
+    color: #D5E1FF;
+}
+.main .content01 .slideshow-container .slides .banner-text-container .banner-tag-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 1.875rem 0;
+}
+.main .content01 .slideshow-container .slides .banner-text-container .banner-tag-container .banner-tag {
+    background: rgba( 0, 0, 0, 0.24 ) 0% 0% no-repeat padding-box;
+    border-radius: 500px;
+    padding: 6px 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.main .content01 .slideshow-container .slides .banner-text-container .banner-tag-container .banner-tag p {
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 18px;
+}
+
+/* Next & previous buttons */
+.main .content01 .slideshow-container .prev,
+.main .content01 .slideshow-container .next {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.main .content01 .slideshow-container .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.main .content01 .slideshow-container .prev:hover,
+.main .content01 .slideshow-container .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.main .content01 .slideshow-container .slidedot-container {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    margin: auto;
+    width: 100%;
+}
+.main .content01 .slidedot-container .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #C9D7E6;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.main .content01 .slidedot-container .active,
+.main .content01 .slidedot-container .dot:hover {
+    background-color: #FFFFFF;
+    width: 20px;
+    border-radius: 50px;
+}
+
+/* Fading animation */
+.main .content01 .slideshow-container .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .main .content01 .slideshow-container .prev,
+    .main .content01 .slideshow-container .next,
+    .main .content01 .slideshow-container .text {
+        display: none;
+        font-size: 11px
+    }
+}
+
+@media (max-width:767px) {
+    .main .content01 {
+        margin-bottom: 5.125rem;
+    }
+    .main .content01 .slideshow-container .banner1 { height: calc(100vh - 100px); background-image: url(../img/main_mo/1_메인배너/1.png); }
+    .main .content01 .slideshow-container .banner2 { height: calc(100vh - 100px); background-image: url(../img/main_mo/1_메인배너/2.png); }
+    .main .content01 .slideshow-container .banner3 { height: calc(100vh - 100px); background-image: url(../img/main_mo/1_메인배너/3.png); }
+    .main .content01 .slideshow-container .banner4 { height: calc(100vh - 100px); background-image: url(../img/main_mo/1_메인배너/4.png); }
+    .main .content01 .slideshow-container .slides .banner-text-container {
+        width: auto;
+        margin-left: 8%;
+        padding-top: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main .content01 .slideshow-container .slides .banner-text-container h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 1.75rem;
+    }
+    .main .content01 .slideshow-container .slides .banner-text-container p.sub-text {
+        font-size: 1rem;
+        letter-spacing: -0.32px;
+    }
+    .main .content01 .slideshow-container .slides .banner-text-container .banner-tag-container .banner-tag p {
+        font-size: 0.75rem;
+    }
+}

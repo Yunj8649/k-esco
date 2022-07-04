@@ -1,0 +1,104 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .service-title img {
+    width: 48px;
+    margin: 0 0 12px 0;
+  }
+
+  .service-title h1 {
+    font: normal normal bold 32px/44px Noto Sans KR;
+  }
+
+  .service-title p {
+    font: normal normal normal 16px/24px Noto Sans KR;
+    margin: 13px 0 0 0;
+  }
+
+  .service-intro-section {
+    margin: 0 0 140px;
+  }
+
+  .service-intro-section .service-intro-text {
+    font: normal normal bold 24px/32px Noto Sans KR;
+    margin: 0 0 21px 0;
+  }
+
+  .service-intro-section .service-intro-content p {
+    font: normal normal normal 14px/20px Noto Sans KR;
+  }
+
+  .hr-line {
+    margin: 0 0 80px 0;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .service-title img {
+    width: 88px;
+    margin: 0 0 35px 0;
+  }
+
+  .service-title h1 {
+    font: normal normal bold 60px/80px Noto Sans KR;
+  }
+
+  .service-title p {
+    font: normal normal normal 24px/32px Noto Sans KR;
+    margin: 24px 0 0 0;
+  }
+
+  .service-intro-section {
+    margin: 0 0 260px;
+  }
+
+  .service-intro-section .service-intro-text {
+    width: 40%;
+    font: normal normal bold 36px/48px Noto Sans KR;
+  }
+
+  .service-intro-section .service-intro-content {
+    width: 60%;
+  }
+
+  .service-intro-section .service-intro-content p {
+    font: normal normal normal 20px/32px Noto Sans KR;
+  }
+
+  .hr-line {
+    margin: 0 0 140px 0;
+  }
+}
+
+/* 3페이지 공통 */
+.service-title {
+  text-align: center;
+  margin: 0 0 268px;
+}
+
+.service-title h1 {
+  color: #0c0d0d;
+}
+
+.service-title .sub-title {
+  color: #1553fc;
+}
+
+.service-intro-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-intro-section .service-intro-text span {
+  color: #1553fc;
+}
+
+.service-intro-top {
+  margin: 0 0 63px 0;
+}
+
+.hr-line {
+  display: block;
+  border: solid 0.5px black;
+}

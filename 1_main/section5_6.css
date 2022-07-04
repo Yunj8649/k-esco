@@ -1,0 +1,140 @@
+.main .content05 {
+    margin-bottom: 240px;
+}
+.main .content05 .content-center {
+    position: relative!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main .content05 .content-center .video {
+    position: relative;
+    float: left;
+    width: 57%;
+    min-height: 482px;
+    height: auto;
+}
+.main .content05 .content-center .text {
+    display: inline-block;
+    width: 36%;
+    max-width: 568px;
+    text-align: right;
+    margin-top: 40px;
+}
+.main .content05 .content-center .text>.text1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+.main .content05 .content-center .text>.text2 {
+    font-size: 18px;
+    color: #1553FC;
+}
+
+
+.main .content06 {
+    margin-bottom: 240px;
+}
+.main .content06 .cs-container {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 360px;
+    text-align: center;
+}
+.main .content06 .cs-container::before {
+    content: "";
+    background: url('../img/main_pc/5_상담신청\ 뒷배경.png');
+    background-size: cover;
+    opacity: 0.84;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.main .content06 .cs-container .text-container {
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.main .content06 .cs-container .cs-text1>b {
+    font-weight: bold;
+}
+.main .content06 .cs-container .cs-text1>br {
+    display: none;
+}
+.main .content06 .cs-container .cs-text1 {
+    color: #ffffff;
+    font-size: 36px;
+    position: relative;
+    line-height: 70px;
+}
+
+.main .content06 .cs-container .cs-text2>br {
+    display: none;
+}
+.main .content06 .cs-container .cs-text2 {
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+}
+
+.main .content06 .cs-container .cs-button {
+    margin-top: 30px;
+    border-radius: 500px;
+    background-color: #ffffff;
+    position: relative;
+    padding: 1% 2%;
+    color: #1553FC;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width:767px){
+    .main .content05 {
+        margin-bottom: 10rem;
+    }
+    .main .content05 .content-center {
+        flex-direction: column-reverse;
+    }
+    .main .content05 .content-center .video {
+        width: 100%;
+    }
+    .main .content05 .content-center .text>.text1 {
+        margin-bottom: 15px;
+    }
+    .main .content05 .content-center .text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .main .content06 {
+        margin-bottom: 0px !important;
+    }
+    .main .content06 .cs-container {
+        width: 100%;
+        position: relative;
+        height: 360px;
+        text-align: center;
+    }
+    .main .content06 .cs-container .cs-text1 {
+        line-height: unset;
+        margin-bottom: 20px;
+    }    
+    .main .content06 .cs-container .cs-text1>br {
+        display: unset;
+        line-height: unset;
+    }
+    .main .content06 .cs-container .cs-text2>br {
+        display: unset;
+        line-height: unset;
+    }
+    
+}

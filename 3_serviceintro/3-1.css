@@ -1,0 +1,300 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .title-logo-wrapper {
+    height: 540px;
+  }
+
+  .title-logo-text {
+    font: normal normal 900 40px/56px Noto Sans KR;
+    margin: 32px 0 15px 0;
+  }
+
+  .title-logo-sub-text {
+    font: normal normal medium 14px/19px Noto Sans KR;
+  }
+
+  .company-logo-section .company-logo {
+    width: 50%;
+    flex-basis: 50%;
+  }
+
+  .expert-section {
+    margin: 20px 0 0 0;
+  }
+
+  .expert-section div {
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .expert-img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .customer-title {
+    font: normal normal bold 24px/32px Noto Sans KR;
+  }
+
+  .customer-text {
+    display: none;
+  }
+
+  .graph-item {
+    display: block;
+  }
+
+  .graph-percent .graph-percent-text {
+    font: normal normal bold 14px/32px Noto Sans KR;
+  }
+
+  .banner {
+    margin: 160px 0 0 0;
+    padding: 45px 0;
+  }
+
+  .banner-title {
+    font: normal normal 300 20px/30px Noto Sans KR;
+  }
+
+  .banner-title span {
+    font: normal normal 400 20px/30px Noto Sans KR;
+  }
+
+  .banner-text {
+    font: normal normal normal 14px/20px Noto Sans KR;
+    margin: 12px 0 30px 0;
+  }
+
+  .banner-button {
+    padding: 13px 32px;
+    font: normal normal bold 14px/19px Noto Sans KR;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .title-logo-wrapper {
+    height: 340px;
+  }
+
+  .title-logo-text {
+    font: normal normal 900 64px/80px Noto Sans KR;
+    margin: 20px 0 13px 0;
+  }
+
+  .title-logo-sub-text {
+    font: normal normal medium 20px/27px Noto Sans KR;
+  }
+
+  .company-logo-section .company-logo {
+    width: 25%;
+    flex-basis: 25%;
+  }
+
+  .expert-section div {
+    width: 50%;
+    flex-basis: 50%;
+    padding: 10px;
+  }
+  .expert-img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .customer-title {
+    font: normal normal bold 36px/48px Noto Sans KR;
+  }
+
+  .customer-text {
+    font: normal normal normal 20px/27px Noto Sans KR;
+    color: #929598;
+    margin: 22px 0 0 0;
+  }
+
+  .graph-item {
+    display: flex;
+  }
+
+  .graph-item-title {
+    width: 15%;
+  }
+
+  .graph-percent .graph-percent-text {
+    font: normal normal bold 20px/32px Noto Sans KR;
+  }
+
+  .banner {
+    margin: 260px 0 161px 0;
+    padding: 80px 0;
+  }
+
+  .banner-title {
+    font: normal normal 300 42px/56px Noto Sans KR;
+  }
+
+  .banner-title span {
+    font: normal normal 400 42px/56px Noto Sans KR;
+  }
+
+  .banner-text {
+    font: normal normal normal 20px/32px Noto Sans KR;
+    margin: 22px 0 48px 0;
+  }
+
+  .banner-button {
+    padding: 17px 48px;
+    font: normal normal bold 18px/24px Noto Sans KR;
+  }
+}
+
+.title-logo-wrapper {
+  width: 3000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/서비스소개1_pc/1) 단열창호 배경.png");
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.title-logo {
+  height: 40px;
+  width: 100px;
+}
+
+.title-logo-text {
+  color: #ffffff;
+}
+
+.title-logo-sub-text {
+  color: #ffffff;
+}
+
+/* 최소 운영비 */
+.fee-section {
+  display: flex;
+}
+
+.fee-section .fee-title {
+  color: #1553fc;
+  font: normal normal medium 20px/32px Noto Sans KR;
+  margin: 180px 0 0 0;
+}
+
+.fee-section .fee-line {
+  width: 80px;
+  height: 390px;
+  margin: 0 15px;
+}
+
+.fee-section .fee-icon {
+  width: 130px;
+}
+
+.fee-section .fee-numbering {
+  font: normal normal medium 20px/32px Noto Sans KR;
+  color: #929598;
+  margin: 0 11px 0 0;
+}
+
+.fee-section .fee-br {
+  font: normal normal medium 20px/32px Noto Sans KR;
+  color: #1553fc;
+}
+
+/* 품질 소개 */
+.company-logo-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-logo-section .company-logo {
+  border-radius: 100%;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
+}
+
+/* 전문가 소개 */
+
+.expert-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.expert-name {
+  font: normal normal bold 20px/32px Noto Sans KR;
+  color: #0c0d0d;
+  margin: 0 0 18px 0;
+}
+
+.expert-name span {
+  font: normal normal medium 16px/32px Noto Sans KR;
+  color: #929598;
+}
+
+.expert-img {
+  border-radius: 100%;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
+}
+
+/* 고객 평가 */
+.customer-title {
+  font: normal normal bold 36px/48px Noto Sans KR;
+}
+
+.customer-title span {
+  color: #1553fc;
+}
+
+.graph-item {
+  width: 100%;
+}
+
+.graph-item-title {
+  font: normal normal bold 20px/30px Noto Sans KR;
+  color: #0c0d0d;
+  margin: auto 0;
+}
+
+.graph-percent {
+  width: 90%;
+  display: flex;
+}
+
+.graph-percent .graph-percent-item {
+  height: 40px;
+  margin: 25px 0;
+  border-radius: 0 100px 100px 0;
+}
+
+.graph-percent .graph-percent-text {
+  margin: auto 12px;
+}
+
+.banner {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/서비스소개1_pc/상담\ 배경.png");
+  text-align: center;
+}
+
+.banner-title {
+  color: #ffffff;
+}
+
+.banner-text {
+  color: #ffffff;
+}
+
+.banner-button {
+  color: #1553fc;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 500px;
+}
+
+.hr-line {
+  display: block;
+  border: solid 0.5px black;
+}

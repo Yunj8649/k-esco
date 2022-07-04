@@ -1,0 +1,59 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .introduction-img {
+    flex-basis: 100%;
+  }
+  .introduction-content {
+    flex-basis: 100%;
+    margin: 40px 0 0 0;
+  }
+
+  .introduction-content .introduction-section {
+    font: normal normal normal 14px/22px Noto Sans KR;
+  }
+
+  .introduction-from {
+    font: normal normal normal 14px/22px Noto Sans KR;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .introduction-img {
+    flex-basis: 50%;
+  }
+  .introduction-content {
+    flex-basis: 50%;
+    padding: 0 0 0 120px;
+  }
+
+  .introduction-content .introduction-section {
+    font: normal normal normal 20px/32px Noto Sans KR;
+  }
+
+  .introduction-from {
+    font: normal normal bold 20px/32px Noto Sans KR;
+  }
+}
+
+.introduction-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.introduction-wrapper img {
+  width: 40%;
+  height: 40%;
+}
+
+.introduction-content .introduction-section {
+  margin: 0 0 20px 0;
+  color: #0c0d0d;
+}
+
+.introduction-from {
+  font-weight: 700;
+  color: #0c0d0d;
+  text-decoration: underline #1553fc;
+  text-underline-position: under;
+}

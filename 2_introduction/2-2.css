@@ -1,0 +1,124 @@
+@media (max-width: 1024px) {
+  .first-organization {
+    padding: 19px 0;
+    width: 100px;
+    font: normal normal bold 14px/19px Noto Sans KR;
+  }
+
+  .second-organization {
+    padding: 19px 0;
+    width: 100px;
+    font: normal normal normal 14px/19px Noto Sans KR;
+  }
+
+  .third-organization-item {
+    flex-basis: 33%;
+    margin: 0 0 20px 0;
+  }
+
+  .third-organization-title {
+    font: normal normal medium 14px/19px Noto Sans KR;
+    padding: 19px 29px;
+  }
+
+  .third-organization-content {
+    font: normal normal medium 14px/19px Noto Sans KR;
+    padding: 19px 29px;
+  }
+
+  .line-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    background-image: url("../img/introduction/line3.png");
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .first-organization {
+    padding: 42px 0;
+    width: 441px;
+    font: normal normal bold 24px/32px Noto Sans KR;
+  }
+
+  .second-organization {
+    padding: 42px 0;
+    width: 441px;
+    font: normal normal normal 24px/32px Noto Sans KR;
+  }
+
+  .third-organization-title {
+    font: normal normal medium 20px/27px Noto Sans KR;
+    padding: 27px 70px;
+  }
+
+  .third-organization-content {
+    font: normal normal medium 20px/27px Noto Sans KR;
+    padding: 27px 70px;
+  }
+
+  .line-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    background-image: url("../img/introduction/line2.png");
+  }
+}
+
+.organization-wrapper {
+  text-align: center;
+}
+
+.first-organization {
+  margin: auto;
+  background: #1553fc 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.second-organization-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.second-organization {
+  margin: auto;
+  border: 1px solid #000000;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  color: #000000;
+  text-align: center;
+}
+
+.third-organization-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.third-organization-item {
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+
+.third-organization-title {
+  border-bottom: 1px solid #e0e0e0;
+  color: #4a4d50;
+  background-color: #f4f3f2;
+}
+
+.third-organization-content {
+  color: #4a4d50;
+}
+
+.line-1 {
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 30px;
+  background-image: url("../img/introduction/line1.png");
+}

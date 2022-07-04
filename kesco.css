@@ -1,0 +1,110 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .content-wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .routing-path {
+    text-align: center;
+    margin: 41px 0 125px 0;
+  }
+
+  .routing-path .down-path {
+    font: normal normal medium 12px/32px Noto Sans KR;
+    color: #929598;
+  }
+
+  .routing-path .routing-arrow {
+    font: normal normal medium 12px/32px Spoqa Han Sans Neo;
+    color: #929598;
+  }
+
+  .title-wrapper .title-text {
+    font: normal normal 900 32px/40px Noto Sans KR;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .routing-path .routing-arrow {
+    margin: 0 19px;
+  }
+
+  .content-title {
+    font: normal normal bold 32px/44px Noto Sans KR;
+    color: #0c0d0d;
+  }
+
+  .content-description {
+    font: normal normal normal 16px/24px Noto Sans KR;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .content-wrapper {
+    width: 1400px;
+    margin: auto;
+  }
+
+  .routing-path {
+    display: flex;
+    justify-content: flex-end;
+    margin: 41px 260px 125px 260px;
+  }
+
+  .routing-path .down-path {
+    font: normal normal medium 14px/32px Noto Sans KR;
+    color: #929598;
+  }
+
+  .routing-path .routing-arrow {
+    font: normal normal medium 14px/32px Spoqa Han Sans Neo;
+    color: #929598;
+  }
+
+  .title-wrapper .title-text {
+    font: normal normal 900 64px/80px Noto Sans KR;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .routing-path .routing-arrow {
+    margin: 0 39px;
+  }
+
+  .content-title {
+    font: normal normal bold 60px/80px Noto Sans KR;
+    color: #0c0d0d;
+  }
+
+  .content-description {
+    font: normal normal normal 24px/32px Noto Sans KR;
+  }
+}
+
+.title-wrapper {
+  position: relative;
+}
+
+.title-wrapper img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.content-title-wrapper {
+  text-align: center;
+  margin: 0 0 122px 0;
+}
+
+.content-description {
+  color: #0c0d0d;
+}

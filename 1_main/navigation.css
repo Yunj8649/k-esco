@@ -1,0 +1,169 @@
+/* 1024px 이하 화면 */
+@media (max-width: 767px) {
+    #header {
+        height: 100%;
+    }
+    #navigation.--hide li.navigation-li {
+        display: none;
+    }
+    #navigation.--hide .navigation-logo-div .navigation-close {
+        display: none !important;
+    }
+    #navigation.--hide .navigation-logo-div .navigation-hambuger {
+        display: block !important;
+    }
+	#navigation {
+		display: flex;
+		height: 100%;
+		width: 100%;
+		background-color: #0c0d0d;
+	}
+	#navigation .navigation-logo-div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 20px;
+	}
+	#navigation .navigation-logo-div .navigation-logo {
+		width: 94px;
+		height: 53px;
+	}
+    #navigation .navigation-logo-div .menu-button {
+		height: 40px;
+		width: 40px;
+		margin: auto 0;
+		display: block;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+    #navigation .navigation-logo-div .navigation-close { 
+        background-image: url("../img/close.png"); 
+        display: block !important;
+    }
+    #navigation .navigation-logo-div .navigation-hambuger { 
+        background-image: url("../img/hambuger.png"); 
+        display: none !important;
+    }
+
+	#navigation .navigation-ul {
+		width: 100%;
+		flex-direction: column;
+	}
+	#navigation .navigation-li {
+		margin: 0 0 20px 0;
+	}
+	#navigation .navigation-li a {
+		font: normal normal bold 24px/32px Noto Sans KR;
+	}
+	#navigation .toggle-div {
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#navigation .toggle {
+		height: 40px;
+		width: 40px;
+		margin: auto 0;
+		display: block;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+    #navigation li.navigation-li .toggle-div .toggle { background-image: url("../img/toggle.png"); }
+    #navigation li.navigation-li.active .toggle-div .toggle { background-image: url("../img/toggle-active.png"); }
+
+    #navigation li.navigation-li .sub-ul { 
+        display: none;
+    }
+    #navigation li.navigation-li.active .sub-ul { 
+        display: flex;
+        flex-direction: column;
+    }
+	#navigation .sub-ul li {
+		font: normal normal normal 16px/21px Noto Sans KR;
+		color: #929598;
+		margin: 9px 40px;
+	}
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 767px) {
+    #navigation .navigation-logo-div {
+        margin: 0 20% 0 0;
+	}
+	#navigation .navigation-logo {
+		width: 140px;
+		height: 100%;
+	}
+
+	#navigation {
+		display: flex;
+		height: 92px;
+		background-color: #0c0d0d;
+	}
+
+	#navigation .navigation-ul {
+		width: 1400px;
+		flex-direction: row;
+		text-align: center;
+		margin: auto;
+		/* overflow: hidden; */
+	}
+
+	#navigation .navigation-li {
+		flex: 1;
+		margin: auto;
+		font: normal normal medium 18px/24px Noto Sans KR;
+		position: relative;
+	}
+
+	#navigation .toggle-div:hover {
+		border-bottom: 1px solid;
+		line-height: 65px;
+	}
+
+	#navigation .toggle {
+		display: none;
+	}
+
+	#navigation .sub-ul {
+		position: fixed;
+		padding: 38px 0;
+		left: 0;
+		top: 80px;
+		display: none;
+	}
+
+	#navigation .sub-ul li {
+		margin: 0 20px;
+		font: normal normal medium 16px/21px Noto Sans KR;
+		color: #a0a0a0;
+	}
+
+	#navigation .sub-ul li:hover {
+		font: normal normal bold 16px/21px Noto Sans KR;
+		color: #ffffff;
+	}
+
+	#navigation .navigation-ul>li:hover .sub-ul {
+		display: flex;
+		justify-content: center;
+		background-color: #0c0d0d;
+		width: 100%;
+	}
+
+	#navigation .sub-ul:hover {
+		display: flex;
+		justify-content: center;
+		background-color: #0c0d0d;
+		width: 100%;
+	}
+}
+
+#navigation .navigation-ul {
+	display: flex;
+}
+
+#navigation .navigation-li {
+	color: #ffffff;
+}

@@ -1,0 +1,147 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .margin-top-text {
+    margin: 27px 0 0 0;
+  }
+
+  .remodeling-main-img {
+    height: 1000px;
+    width: 600px;
+    margin: -190px auto 163px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/서비스소개2_mo/2_그린리모델링\ 이미지.png");
+  }
+
+  .interest-main-img {
+    margin: auto;
+    height: 1300px;
+    width: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/서비스소개2_mo/3_이자지원사업\ 이미지.png");
+  }
+
+  .remodeling-bold-text {
+    font: normal normal bold 16px/24px Noto Sans KR !important;
+  }
+
+  .remodeling-text {
+    font: normal normal normal 14px/22px Noto Sans KR !important;
+  }
+
+  .interest-title {
+    font: normal normal bold 16px/32px Noto Sans KR;
+    margin: 23px 0;
+  }
+
+  .interest-sub-title {
+    font: normal normal normal 16px/24px Noto Sans KR;
+  }
+
+  .interest-text {
+    font: normal normal normal 16px/24px Noto Sans KR;
+    margin: 27px 0;
+  }
+
+  .interest-table th {
+    font: normal normal normal 12px/10px Noto Sans KR;
+  }
+
+  .interest-table td {
+    font: normal normal normal 12px/10px Noto Sans KR;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .margin-top-text {
+    margin: 36px 0 0 0;
+  }
+
+  .remodeling-main-img {
+    height: 896px;
+    margin: 0 0 274px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/서비스소개2_pc/2_그린리모델링\ 이미지.png");
+  }
+
+  .interest-main-img {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/서비스소개2_pc/3_이자지원사업\ 이미지.png");
+  }
+
+  .remodeling-bold-text {
+    font: normal normal 700 24px/32px Noto Sans KR !important;
+  }
+
+  .remodeling-text {
+    font: normal normal normal 20px/32px Noto Sans KR !important;
+  }
+
+  .interest-title {
+    font: normal normal bold 24px/32px Noto Sans KR;
+    margin: 42px 0;
+  }
+
+  .interest-sub-title {
+    font: normal normal medium 20px/32px Noto Sans KR;
+  }
+
+  .interest-text {
+    font: normal normal normal 20px/32px Noto Sans KR;
+    margin: 0 0 36px 0;
+  }
+
+  .interest-table th {
+    font: normal normal normal 20px/32px Noto Sans KR;
+  }
+
+  .interest-table td {
+    margin: auto 0;
+    font: normal normal normal 20px/32px Noto Sans KR;
+  }
+}
+
+/* 인테리어 */
+
+.remodeling-text span {
+  color: #929598 !important;
+}
+
+/* 이자 */
+
+.interest-title span {
+  color: #1553fc;
+}
+
+.interest-sub-title span {
+  color: #1553fc;
+}
+
+.interest-text {
+  margin: 0 0 0 7px;
+  color: #929598;
+}
+
+.interest-table {
+  width: 100%;
+  text-align: center;
+  margin: 27px 0;
+}
+
+.interest-table th {
+  color: #929598;
+  border: 1px solid #e0e0e0;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+.interest-table td {
+  color: #929598;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}

@@ -1,0 +1,112 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .service-title {
+    margin: 0 0 61px 0 !important;
+  }
+
+  .interior-sample-banner {
+    margin: 0 0 42px 0;
+  }
+
+  .interior-sample-image p {
+    font: normal normal normal 12px/32px Noto Sans KR;
+    margin: 5px 0 0 0;
+  }
+
+  .guid-card {
+    padding: 24px;
+    flex-basis: 45%;
+  }
+
+  .guid-card h3 {
+    font: normal normal normal 16px/32px Noto Sans KR;
+  }
+
+  .guid-card h2 {
+    margin: 13px 0 10px 0;
+    font: normal normal bold 16px/24px Noto Sans KR;
+  }
+
+  .guid-card p {
+    font: normal normal normal 12px/20px Noto Sans KR;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .service-title {
+    margin: 0 0 120px 0 !important;
+  }
+
+  .interior-sample-banner {
+    margin: 0 0 127px 0;
+  }
+
+  .interior-sample-image p {
+    font: normal normal normal 18px/32px Noto Sans KR;
+    margin: 11px 0 0 0;
+  }
+
+  .guid-card {
+    padding: 42px;
+    flex-basis: 22%;
+  }
+
+  .guid-card h3 {
+    font: normal normal normal 24px/32px Noto Sans KR;
+  }
+
+  .guid-card h2 {
+    margin: 23px 0 14px 0;
+    font: normal normal bold 24px/32px Noto Sans KR;
+  }
+
+  .guid-card p {
+    font: normal normal normal 18px/26px Noto Sans KR;
+  }
+}
+
+.interior-sample-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interior-sample-image {
+  flex-basis: 50%;
+  width: 50%;
+  padding: 0 20px 20px 0;
+}
+
+.interior-sample-image p {
+  color: #929598;
+}
+
+.guid-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.guid-card {
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
+  border-radius: 10px;
+  margin: auto;
+  margin: 0 auto 30px auto;
+}
+
+.guid-card h3 {
+  color: #1553fc;
+}
+
+.guid-card h2 {
+  color: #0c0d0d;
+}
+
+.guid-card p {
+  color: #929598;
+}
+
+.hr-line {
+  display: block;
+  border: solid 0.5px black;
+}

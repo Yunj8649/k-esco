@@ -1,0 +1,87 @@
+/* 1024px 이하 화면 */
+@media (max-width: 1024px) {
+  .certification-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .certification-text-wrapper h2 {
+    text-align: center;
+    font: normal normal bold 24px/44px Noto Sans KR;
+  }
+
+  .certification-text-wrapper p {
+    font: normal normal normal 14px/22px Noto Sans KR;
+    margin: 0 0 11px 0;
+  }
+
+  .content-gray-wrapper {
+    padding: 62px 20px;
+  }
+
+  .certification-photos-wrapper img {
+    flex-basis: 50%;
+    width: 50%;
+  }
+}
+
+/* 1024px 이상 화면 */
+@media (min-width: 1024px) {
+  .certification-content-wrapper {
+    display: flex;
+  }
+
+  .certification-content-wrapper img {
+    width: 40%;
+  }
+
+  .certification-text-wrapper h2 {
+    font: normal normal bold 36px/48px Noto Sans KR;
+  }
+
+  .certification-text-wrapper p {
+    font: normal normal normal 20px/32px Noto Sans KR;
+    margin: 41px 0 0 0;
+  }
+
+  .content-gray-wrapper {
+    padding: 125px 0;
+  }
+
+  .certification-photos-wrapper img {
+    flex-basis: 25%;
+    width: 25%;
+  }
+}
+
+.certification-content-wrapper img {
+  margin: 0 0 120px 0;
+}
+
+.content-gray-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.certification-text-wrapper {
+  margin: 0 40px 0 0;
+}
+
+.certification-text-wrapper h2 {
+  color: #0c0d0d;
+}
+
+.certification-text-wrapper p {
+  font: normal normal normal 20px/32px Noto Sans KR;
+  color: #0c0d0d;
+}
+
+.certification-photos-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certification-photos-wrapper img {
+  padding: 20px;
+}

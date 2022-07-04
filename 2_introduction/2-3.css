@@ -1,0 +1,96 @@
+/* 1024px 이하 화면 : 경영비전  */
+@media (max-width: 1024px) {
+  .vision-item-wrapper {
+    flex-basis: 50%;
+    margin: 0 0 20px 0;
+  }
+
+  .ideology-img {
+    width: 320px;
+    height: 800px;
+    margin: -63px auto 163px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/introduction/ideology2.png");
+  }
+}
+
+/* 1024px 이상 화면 : 경영비전 */
+@media (min-width: 1024px) {
+  .vision-item-wrapper {
+    flex-basis: 25%;
+    margin: 0 0 20px 0;
+  }
+
+  .ideology-img {
+    width: 1000px;
+    height: 900px;
+    margin: -63px auto 163px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/introduction/ideology1.png");
+  }
+}
+
+/* 900px 이하 화면 */
+@media (max-width: 900px) {
+}
+
+/* 900px 이상 화면 */
+@media (min-width: 900px) {
+}
+
+/* 경영 이념 */
+
+/* 경영 비전 */
+.arrow-img {
+  display: block;
+  width: 70px;
+  margin: 65px auto;
+}
+
+.vision-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vision-item-wrapper {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.vision-item-wrapper h3 {
+  color: #1553fc;
+  font: normal normal bold 60px/32px Noto Sans KR;
+}
+
+.vision-item-wrapper .text-box {
+  border-radius: 500px;
+  margin: 22px 0;
+  padding: 35px 0;
+  font: normal normal bold 24px/32px Noto Sans KR;
+  color: #ffffff;
+  background-color: #1553fc;
+}
+
+.vision-item-wrapper .text-box-gray {
+  border-radius: 500px;
+  margin: 22px 0;
+  padding: 35px 0;
+  font: normal normal bold 24px/32px Noto Sans KR;
+  color: #ffffff;
+  background-color: #929598;
+}
+
+.vision-item-wrapper h5 {
+  font: normal normal bold 20px/32px Noto Sans KR;
+  letter-spacing: -0.4px;
+  color: #0c0d0d;
+}
+
+.vision-item-wrapper span {
+  font: normal normal normal 20px/32px Noto Sans KR;
+  letter-spacing: -0.4px;
+  color: #0c0d0d;
+}
