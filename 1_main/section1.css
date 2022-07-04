@@ -31,6 +31,7 @@
     letter-spacing: -1.04px;
     color: #FFFFFF;
     font-size: 3.25rem;
+    font-weight: bold;
 }
 .main .content01 .slideshow-container .slides .banner-text-container p.sub-text {
     text-align: left;
@@ -43,7 +44,7 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 1.875rem 0;
+    width: 60%;
 }
 .main .content01 .slideshow-container .slides .banner-text-container .banner-tag-container .banner-tag {
     background: rgba( 0, 0, 0, 0.24 ) 0% 0% no-repeat padding-box;
