@@ -31,7 +31,7 @@
                     </h1>
         
                     <!-- menu -->
-                    <div class="gnb_bar">
+                    <!-- <div class="gnb_bar">
                         <ul class="depth1 clearfix">
                             <li><a href="#">회사소개</a></li>
                             <li><a href="#">서비스소개</a></li>
@@ -40,7 +40,7 @@
                             <li><a href="#">시공사례</a></li>
                             <li><a href="#">FAQ</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </nav>  
             <!-- menu -->
@@ -162,22 +162,15 @@
                     <h1 class="section-title">K-ESCO 시공사례</h1>
                     <div id="slider-div" class="slideshow-container">
                         <div class="center">
-                            <div class="img img01">your content1</div>
-                            <div class="img img02">your content2</div>
-                            <div class="img img03">your content3</div>
-                            <div class="img img04">your content4</div>
-                            <div class="img img05">your content5</div>
-                            <div class="img img06">your content6</div>
+                            <div class="img img01"><div class="text01">샷시교체 <br/>구로구 개봉동 건영아파트</div></div>
+                            <div class="img img02"><div class="text01">샷시교체 <br/>구로구 개봉동 건영아파트</div></div>
+                            <div class="img img03"><div class="text01">그린리모델링 <br/>대전 갈마 아파트</div></div>
+                            <div class="img img04"><div class="text01">샷시교체 <br/>야음동 신정현대홈타운 2단지</div></div>
+                            <div class="img img05"><div class="text01">샷시교체 <br/>구로구 개봉동 건영아파트</div></div>
+                            <div class="img img06"><div class="text01">샷시교체 <br/>화원읍 성화한빛아파트</div></div>
                         </div>
                     </div>
                     <br>
-                    
-                    <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        <span class="dot" onclick="currentSlide(4)"></span>
-                    </div>
                 </section>
                 <!--// 영역3 -->
 
@@ -304,26 +297,28 @@
             $(document).ready(function(){
                 $('.center').slick({
                     slide: 'div', 
-                    prevArrow : "<button type='button' class='slick-prev'>Previous</button>",
-                    nextArrow : "<button type='button' class='slick-next'>Next</button>",
+                    prevArrow : "<button type='button' class='slick-prev'>〈</button>",
+                    nextArrow : "<button type='button' class='slick-next'>〉</button>",
                     infinite : true,
                     centerMode: true,
+                    autoplay: true,
+                    autoplaySpeed: 500,
+                    pauseOnHover : true, 
+                    speed : 2000,  
                     centerPadding: '40px',
                     slidesToShow: 4,
                     responsive: [
                         {
                             breakpoint: 768,
                             settings: {
-                                arrows: false,
                                 centerMode: true,
-                                centerPadding: '40px',
+                                centerPadding: '80px',
                                 slidesToShow: 3
                             }
                         },
                         {
                             breakpoint: 480,
                             settings: {
-                                arrows: false,
                                 centerMode: true,
                                 centerPadding: '40px',
                                 slidesToShow: 1
