@@ -89,7 +89,7 @@
     margin-top: 40px;
 }
 
-@media screen and (max-width:767px){ 
+@media screen and (max-width:1024px){ 
     .popup { --content-width: 90%!important;}
     .popup .content01-warp,.content02-warp,.content03-warp { width: var(--content-width); margin: auto;}
     .popup .content01 .item01 h1 { font-size: 32px !important; margin-bottom: 11px !important; }

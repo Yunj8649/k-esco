@@ -129,13 +129,10 @@
     }
 }
 
-@media ( max-width: 1024px ) {
+@media (max-width:1024px) {
     .main .content01 .slideshow-container .slides .banner-text-container {
         padding-top: 18%;
     }
-}
-
-@media (max-width:767px) {
     .main .content01 {
         margin-bottom: 5.125rem;
     }

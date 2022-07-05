@@ -62,7 +62,7 @@
     margin-bottom: 224px;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width: 1024px){
     .popup001 .content02 .form-item .adress-inputs {
         width: 100%;
     }

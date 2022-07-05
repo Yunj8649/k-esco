@@ -1,5 +1,5 @@
 /* 1024px 이하 화면 */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     #header {
         height: 100%;
     }
@@ -87,7 +87,7 @@
 }
 
 /* 1024px 이상 화면 */
-@media (min-width: 767px) {
+@media (min-width: 1024px) {
     #navigation .navigation-logo-div {
         margin: 0 20% 0 0;
 	}
