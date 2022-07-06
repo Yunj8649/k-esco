@@ -26,6 +26,12 @@
     margin-left: 14%;
     padding-top: 10%;
 }
+.main .content01 .slideshow-container .slides .banner-text-container .text01 {
+    display: block;
+}
+.main .content01 .slideshow-container .slides .banner-text-container .text02 {
+    display: none;
+}
 .main .content01 .slideshow-container .slides .banner-text-container h1 {
     text-align: left;
     /* letter-spacing: -1.04px; */
@@ -130,9 +136,6 @@
 }
 
 @media (max-width:1024px) {
-    .main .content01 .slideshow-container .slides .banner-text-container {
-        padding-top: 18%;
-    }
     .main .content01 {
         margin-bottom: 5.125rem;
     }
@@ -143,7 +146,7 @@
     .main .content01 .slideshow-container .slides .banner-text-container {
         width: auto;
         margin-left: 8%;
-        padding-top: 25%;
+        margin-top: auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -160,5 +163,17 @@
     }
     .main .content01 .slideshow-container .slides .banner-text-container .banner-tag-container .banner-tag p {
         font-size: 0.75rem;
+    }
+}
+
+@media (max-width:1000px) {
+}
+
+@media (max-width: 767px) { 
+    .main .content01 .slideshow-container .slides .banner-text-container .text01 {
+        display: none;
+    }
+    .main .content01 .slideshow-container .slides .banner-text-container .text02 {
+        display: block;
     }
 }

@@ -45,19 +45,49 @@ textarea{font-family:'Noto Sans KR','Malgun Gothic','dotum',sans-serif;resize:no
 h1.section-title {letter-spacing: -0.84px;color: #0C0D0D;font-size: 2.625em;font-weight: 600;width: 100%;text-align: center;margin: 2% 0;}
 
 #footer{width:auto;height:360px;color:#fff;background:#1e1e1e;z-index:9;overflow:hidden;}
-#footer .content_wrap{position:relative;width:100%;max-width:1300px;height:auto;margin:0 auto;padding:20px 0;}
+#footer .content_wrap{display: flex;position:relative;width:100%;max-width:1300px;height:auto;margin:0 auto;padding:50px 0 20px 0;}
 /* #footer .footer-logo{position:absolute;top:100px;left:2.5%;font-family:arial;font-weight:700;font-size:46px;color:#fff;line-height:1.17;} */
 #footer .footer-logo{
-    width: 15%;
-    position: absolute;
+    width: 300px;
+    height: 102px;
+    margin-left: 20px;
+    /* position: absolute; */
     left: -6.5%;
     top: 54px;
 }
-#footer .footer_info{text-align:left;margin: 35px 0 60px 18%;}
+#footer .footer_info{text-align:left;margin: 0 0 60px 20vh;}
 #footer .footer_info li{color:#8E8E8E;line-height:1.88;}
-#footer .footer_info p.footer-phone-text{font-size: 20px;}
+#footer .footer_info p.footer-phone-text{font-size: 20px;font-weight: bold;}
 #footer .footer_info p.footer-phone-number{font-size: 28px;font-weight: bold;}
 
 #container{position:relative;width:auto;min-height:100%;margin:0 0 -350px;}
 #container #contents{width:auto;height:auto;padding:38px 0 350px;} /* 비로그인시 헤더 높이 + 100px */
 /* #container #contents section {margin-bottom: 240px;} */
+
+@media screen and (max-width:1024px){
+    /* common */
+    .pc{display:none!important;}
+    .mb{display:block!important;}
+
+    /* layout */
+    #header{top:0!important;}
+    #header .pc{display:none!important;}
+    #header .mb{display:block!important;}
+
+    #container{margin:0 0 -600px;}
+    #container #contents{padding:100px 0 600px!important;}
+    #footer{height:600px;}
+    #footer .content_wrap{padding:100px 6.25% 120px; flex-direction: column;}
+    /* #footer .logo{top:100px;left:50%;width:auto;text-align:center;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);} */
+    #footer .footer-logo{
+        width: 237px;
+        height: 80px;
+        margin: auto;
+        display: block;
+        position: initial;
+    }
+    #footer .footer_info{margin: 8% auto 8% auto !important;}
+    #footer .footer_info li{font-size: 10px;}
+    #footer .footer_info p.footer-phone-text{font-size: 14px;}
+    #footer .footer_info p.footer-phone-number{font-size: 24px;}
+}

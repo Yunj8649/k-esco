@@ -227,7 +227,8 @@
     .popup002 .content03 .item03 {
         height: 18.875rem;
         background: transparent url(../img/popup_mo/견적조회이미지.png) no-repeat padding-box;
-        margin-top: -3.375rem;
+        width: 400px;
+        margin: -3.375rem auto auto auto;
     }
     .popup002 .content03 button {
         width: 100%;
