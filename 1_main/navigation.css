@@ -87,7 +87,7 @@
 }
 
 /* 1024px 이상 화면 */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     #navigation .navigation-logo-div {
         margin: 0 20% 0 0;
 	}
